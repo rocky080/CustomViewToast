@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		004DBFA8BF0B384FCA2A567905C3E37C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D6845C87CB68D2FC45FB8AE2AFCF57 /* ReplaceMe.swift */; };
 		047910D5F59F40A3C189C9DB43C6E22C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		0526F22BBA9972EE0CC2F1A9E4DA601B /* Pods-CustomViewToast_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDAF09035D4D47DCAAA200F32D6902F1 /* Pods-CustomViewToast_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		342F38FE31B66F94FE2947E81AFF035D /* CustomViewToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C169504AA4389DA55B19331EB6B6A2 /* CustomViewToast-dummy.m */; };
@@ -42,7 +41,6 @@
 		1E7C0FC68644CE257C6544CD509FC15D /* CustomViewToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CustomViewToast-Info.plist"; sourceTree = "<group>"; };
 		21EDA07130D7B25BE89803E056338C14 /* CustomViewToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomViewToast-prefix.pch"; sourceTree = "<group>"; };
 		23DB7D055F96821704C038F6AD105644 /* CustomViewToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomViewToast-umbrella.h"; sourceTree = "<group>"; };
-		24D6845C87CB68D2FC45FB8AE2AFCF57 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CustomViewToast/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		2EBEFDB1948C7267B3D12D39DCA47DE5 /* Pods-CustomViewToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomViewToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		465690C7601930E20B6E835CF2BAE089 /* Pods-CustomViewToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomViewToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				4BEAE97F2670B366000C07FE /* Classes */,
-				24D6845C87CB68D2FC45FB8AE2AFCF57 /* ReplaceMe.swift */,
 				861350657E14E9B51D928DF3289FD677 /* Pod */,
 				0944F3DAECC17F14710E915419C0584B /* Support Files */,
 			);
@@ -380,7 +377,6 @@
 			files = (
 				4BEAE9812670B428000C07FE /* CustomViewToast.swift in Sources */,
 				342F38FE31B66F94FE2947E81AFF035D /* CustomViewToast-dummy.m in Sources */,
-				004DBFA8BF0B384FCA2A567905C3E37C /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
