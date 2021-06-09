@@ -11,6 +11,7 @@
 		047910D5F59F40A3C189C9DB43C6E22C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		0526F22BBA9972EE0CC2F1A9E4DA601B /* Pods-CustomViewToast_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDAF09035D4D47DCAAA200F32D6902F1 /* Pods-CustomViewToast_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		342F38FE31B66F94FE2947E81AFF035D /* CustomViewToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C169504AA4389DA55B19331EB6B6A2 /* CustomViewToast-dummy.m */; };
+		4BEAE9812670B428000C07FE /* CustomViewToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEAE9802670B428000C07FE /* CustomViewToast.swift */; };
 		50C56406DA365821E68C37B410793129 /* Pods-CustomViewToast_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A90567F6B7EFCE02728BF7BAB24024C2 /* Pods-CustomViewToast_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DB428E7FD50DF8DCFCD693BA0560B51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A2D1B0EDD2783109ECACB0932915F1EE /* CustomViewToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23DB7D055F96821704C038F6AD105644 /* CustomViewToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,24 +46,25 @@
 		2EBEFDB1948C7267B3D12D39DCA47DE5 /* Pods-CustomViewToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomViewToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		465690C7601930E20B6E835CF2BAE089 /* Pods-CustomViewToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomViewToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5BA12F7822E12833DFF86E326F175F3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4BEAE9802670B428000C07FE /* CustomViewToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewToast.swift; sourceTree = "<group>"; };
+		5BA12F7822E12833DFF86E326F175F3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5F57AA51C7354BA6F1BC850BF82470B0 /* Pods-CustomViewToast_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomViewToast_Tests-Info.plist"; sourceTree = "<group>"; };
-		63A3D694F343CB8AD5278E92E9188207 /* Pods_CustomViewToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomViewToast_Example.framework; path = "Pods-CustomViewToast_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A3D694F343CB8AD5278E92E9188207 /* Pods_CustomViewToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomViewToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C169504AA4389DA55B19331EB6B6A2 /* CustomViewToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomViewToast-dummy.m"; sourceTree = "<group>"; };
 		6F338D3B1525FDFDCBC79AA0460651B0 /* Pods-CustomViewToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomViewToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6F65A42BED31643BD760E664C804BAD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6F65A42BED31643BD760E664C804BAD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6F9B861B5448C10AE55995126CC0494D /* CustomViewToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomViewToast.debug.xcconfig; sourceTree = "<group>"; };
 		6FEB2290A36FF65CCFB1D69EBC5C77B4 /* Pods-CustomViewToast_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CustomViewToast_Tests.modulemap"; sourceTree = "<group>"; };
-		784BC8EDE3E776C7C6567A4DC71EA1D9 /* Pods_CustomViewToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomViewToast_Tests.framework; path = "Pods-CustomViewToast_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		784BC8EDE3E776C7C6567A4DC71EA1D9 /* Pods_CustomViewToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomViewToast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFB9AFCA8EE9D301E33857EACF67D7B /* Pods-CustomViewToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomViewToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8A5B7E1AD33A5505BBB9B025D3687088 /* Pods-CustomViewToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomViewToast_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8B4E5D8882554E402EF36BE2BDAE3239 /* Pods-CustomViewToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomViewToast_Example-dummy.m"; sourceTree = "<group>"; };
-		8F827A241D5E662E40F7BA45B56266A1 /* CustomViewToast.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CustomViewToast.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F827A241D5E662E40F7BA45B56266A1 /* CustomViewToast.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CustomViewToast.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CF80596115ED2007264A2C60BAD9A8B /* Pods-CustomViewToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomViewToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A37E468FB60AC3E4B687DBC4BE210347 /* CustomViewToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomViewToast.release.xcconfig; sourceTree = "<group>"; };
 		A90567F6B7EFCE02728BF7BAB24024C2 /* Pods-CustomViewToast_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomViewToast_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AFF2B0A742144DE2D803022D88A739E6 /* CustomViewToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CustomViewToast.framework; path = CustomViewToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF2B0A742144DE2D803022D88A739E6 /* CustomViewToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomViewToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAF09035D4D47DCAAA200F32D6902F1 /* Pods-CustomViewToast_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomViewToast_Example-umbrella.h"; sourceTree = "<group>"; };
 		D2CBD47D590AAA13E4107D4117456AB3 /* Pods-CustomViewToast_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomViewToast_Example-Info.plist"; sourceTree = "<group>"; };
 		D9440C24A9FD4F84EAEBF2436C63CC7F /* Pods-CustomViewToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomViewToast_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -131,9 +133,18 @@
 			path = "Target Support Files/Pods-CustomViewToast_Tests";
 			sourceTree = "<group>";
 		};
+		4BEAE97F2670B366000C07FE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4BEAE9802670B428000C07FE /* CustomViewToast.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6E498FFC3AFFE772E8EAF2C71D53B591 /* CustomViewToast */ = {
 			isa = PBXGroup;
 			children = (
+				4BEAE97F2670B366000C07FE /* Classes */,
 				24D6845C87CB68D2FC45FB8AE2AFCF57 /* ReplaceMe.swift */,
 				861350657E14E9B51D928DF3289FD677 /* Pod */,
 				0944F3DAECC17F14710E915419C0584B /* Support Files */,
@@ -367,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BEAE9812670B428000C07FE /* CustomViewToast.swift in Sources */,
 				342F38FE31B66F94FE2947E81AFF035D /* CustomViewToast-dummy.m in Sources */,
 				004DBFA8BF0B384FCA2A567905C3E37C /* ReplaceMe.swift in Sources */,
 			);
@@ -590,8 +602,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

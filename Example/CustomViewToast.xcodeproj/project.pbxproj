@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02C279E7E18D90B9352E1FBF /* CustomViewToast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomViewToast.podspec; path = ../CustomViewToast.podspec; sourceTree = "<group>"; };
+		02C279E7E18D90B9352E1FBF /* CustomViewToast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomViewToast.podspec; path = ../CustomViewToast.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0A31E41D3A1B3CEBA6F1D009 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2A51628C4FC2B9B259E151ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2DAC834C6FA95C3989956C5F /* Pods_CustomViewToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomViewToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
