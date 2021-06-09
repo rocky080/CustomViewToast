@@ -1,0 +1,6 @@
+framework module CustomViewToast {
+  umbrella header "CustomViewToast-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - CustomViewToast (0.1.0)
+
+DEPENDENCIES:
+  - CustomViewToast (from `../`)
+
+EXTERNAL SOURCES:
+  CustomViewToast:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CustomViewToast: 6bd9a7887fb74fd0d60e9dd6f456dff4a7aa8b49
+
+PODFILE CHECKSUM: 36ff064bced85aba3831e4946bd08ee2d2bdab5d
+
+COCOAPODS: 1.9.3
