@@ -22,8 +22,7 @@ pod 'CustomViewToast'
 
 ## Author
 
-rocky080, navin@itoneclick.com
-
+rocky080, rworld80@gmail.com
 ## License
 
 CustomViewToast is available under the MIT license. See the LICENSE file for more info.
